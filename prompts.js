@@ -5,8 +5,8 @@ module.exports = [
         name: 'problem1',
         message: '请选择模版?',
         choices: [
-            {name: '模版1', value: 'template1-demo'},
-            {name: '模版2', value: 'template2-demo'}
+            {name: '模版1', value: 'testEnv'},
+            {name: '模版2', value: 'probEnv'}
         ],
         default: 'template1'
     },

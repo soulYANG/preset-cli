@@ -1,0 +1,132 @@
+.moduleWrapper {
+    width: 50%;
+    height: 400px;
+    margin-bottom: 20px;
+    color: white;
+
+    .moduleHeader {
+        height: 30px;
+        line-height: 30px;
+
+        .title {
+            width: 80px;
+            height: 28px;
+            font-family: PingFang SC;
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 28px;
+            letter-spacing: 0px;
+            color: #ffffff;
+            top: 12px;
+            position: relative;
+            left: 39px;
+        }
+
+        .settings {
+            cursor: pointer;
+            float: right;
+            margin-right: 15px;
+            color: #a7d8ff;
+        }
+    }
+
+    .mainContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .ContentLeft {
+            width: 30%;
+            height: calc(100% - 30px);
+            box-sizing: border-box;
+            margin-right: 10px;
+            // background: cyan;
+        }
+
+        .ContentRight {
+            width: 70%;
+            height: calc(100% - 30px);
+            // background: yellow;
+        }
+
+
+        .sub_title {
+
+            width: 100%;
+            height: 24px;
+            line-height: 24px;
+            color: #ffffff;
+            position: relative;
+            top: 40px;
+            left: 21px;
+            font-family: PingFang SC;
+            font-size: 18px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 25px;
+            letter-spacing: 0px;
+            border-left: solid 4px #52b3ff;
+            padding-left: 5px;
+
+            .exportOption {
+                cursor: pointer;
+                height: 24px;
+                float: right;
+                margin-right: 40px;
+
+                .export {
+
+                    width: 24px;
+                    height: 24px;
+                    vertical-align: text-top;
+                }
+            }
+
+            .check_btn {
+                width: 56px;
+                height: 21px;
+                font-family: PingFang SC;
+                font-size: 14px;
+                z-index: 10;
+                font-weight: normal;
+                font-stretch: normal;
+                letter-spacing: 0px;
+                color: #a7d8ff;
+                margin-left: 20px;
+                text-align: center;
+                background: url('../../assets/imgs/check_btn.png') no-repeat;
+                background-size: 100%;
+            }
+
+            .uncheck_btn {
+                width: 56px;
+                height: 21px;
+                font-family: PingFang SC;
+                font-size: 14px;
+                z-index: 10;
+                font-weight: normal;
+                font-stretch: normal;
+                letter-spacing: 0px;
+                color: #a7d8ff;
+                margin-left: 20px;
+                text-align: center;
+                background: url('../../assets/imgs/uncheck_btn.png') no-repeat;
+                background-size: 100%;
+            }
+
+            .check_btn,
+            .uncheck_btn {
+                cursor: pointer;
+            }
+        }
+
+        .main {
+            .hotwordsChart {
+                height: 380px;
+                width: 100%;
+            }
+        }
+
+    }
+}

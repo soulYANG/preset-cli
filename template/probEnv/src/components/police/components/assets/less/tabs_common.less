@@ -1,0 +1,103 @@
+.innerWrap {
+    /deep/ .el-dialog {
+      width: 520px;
+      height: 490px;
+      background: url("../../assets/imgs/modal.png") no-repeat;
+      background-size: 100% 100%;
+      .footer {
+        float: right;
+      }
+    }
+    /deep/ .el-form-item__label{
+      color: rgb(132, 181, 250);
+    }
+    /deep/ .el-input__inner{
+      background: transparent;
+      color: white;
+      border: 1px solid rgb(46, 59, 81);
+    }
+    /deep/ .el-dialog__title {
+      color: rgb(194, 214, 240);
+    }
+    /deep/ .el-icon-close:before {
+      position: absolute;
+      right: 16px;
+      top: 22px;
+      font-size: 32px;
+    }
+    /deep/ .el-dialog__header {
+      padding: 60px 45px 10px;
+    }
+    /deep/ .el-dialog__body {
+      padding: 30px 45px;
+    }
+    .addbtn {
+      position: absolute;
+      right: 60px;
+      top: 13px;
+      width: 100px;
+      height: 34px;
+      z-index: 2;
+      background: #1d3a88;
+      border: none;
+      border-radius: 4px;
+    }
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 80%;
+      height: 8px;
+      margin-left: -42%;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABV4AAAAICAYAAAABUuTGAAACvklEQVR4Xu3dv2tTURjG8fc9SaBEweCiVIi1VekgNG1E6KROotBF95gqVAcRxE1B7eSioOCgQWsEtw6CIiKCdhGnJlU7KKQ/XAoOFrRYm7T3vHItbrp1uO35nj/g8ryfc+DCew/vVWEhgAACCCCAAAIIIIAAAggggAACCCCAAAIIrKmArunTeBgCCCCAAAIIIIAAAggggAACCCCAAAIIIICA/Gm89g3O1ERkCx4IIIAAAgggkBwBNfvYtOji5KM9U3GqntJsr7rooLPUJlNbSU5SkiCAAAIIBC6gJuqc8w1N28vxStf3Q1ffpH982XlLTAbEKe+swA8I5SOAAAKhCqw2XsvTAyKWCRWBuhFAAAEEEEiagKk6MT1n4p/kxN0bq+5a6j89ubUZZU+Iyl4v6tXEkpabPAgggAAC4QmYxhd6bNkieZpum6+PV/YvF8qzx9T8BRV9Jeob4alQMQIIIIAAArJ645WFAAIIIIAAAskTKJZmD3tn11TsRq3a+SxO2H/2847WUua4iWwX0eXkpSYRAggggEBoAmaaEtGx3Yv5sdFRjYpDU3nf0oqJvZiodt0OzYN6EUAAAQQQ+CtA45WzgAACCCCAQIIFiicb50X1iF/RS/XHne/jqIXyTEFMjoqTnDNGDiR4+4iGAAIIbHgBE01JSiay1nz+dqR7QcS0b3Dmrpn6ttTPy+8e7Jvf8AgUiAACCCCAwH8EaLxyNBBAAAEEEEiwQHFoLutbzZuq5kxbw/WR7rl4bl7za/u2hV+uLZuJfILjEw0BBBBAYIML+EVV25z+Fs91jUvtKzXOeOcGvLorHx52xP8SYSGAAAIIIBCsAI3XYLeewhFAAAEE1otA76lP7Rpl7ntJvc6p3Ynnva6X7OREAAEEEAhHoKc0fcA5va4qlVq+Y1SGlY+D4Ww/lSKAAAII/EPgN+A+rhlKej2uAAAAAElFTkSuQmCC);
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: contain;
+      transform: rotate(0deg);
+      content: " ";
+    }
+    &::after {
+      position: absolute;
+      bottom: -2px;
+      left: 8%;
+      width: 80%;
+      height: 8px;
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABV4AAAAICAYAAAABUuTGAAACvklEQVR4Xu3dv2tTURjG8fc9SaBEweCiVIi1VekgNG1E6KROotBF95gqVAcRxE1B7eSioOCgQWsEtw6CIiKCdhGnJlU7KKQ/XAoOFrRYm7T3vHItbrp1uO35nj/g8ryfc+DCew/vVWEhgAACCCCAAAIIIIAAAggggAACCCCAAAIIrKmArunTeBgCCCCAAAIIIIAAAggggAACCCCAAAIIIICA/Gm89g3O1ERkCx4IIIAAAgggkBwBNfvYtOji5KM9U3GqntJsr7rooLPUJlNbSU5SkiCAAAIIBC6gJuqc8w1N28vxStf3Q1ffpH982XlLTAbEKe+swA8I5SOAAAKhCqw2XsvTAyKWCRWBuhFAAAEEEEiagKk6MT1n4p/kxN0bq+5a6j89ubUZZU+Iyl4v6tXEkpabPAgggAAC4QmYxhd6bNkieZpum6+PV/YvF8qzx9T8BRV9Jeob4alQMQIIIIAAArJ645WFAAIIIIAAAskTKJZmD3tn11TsRq3a+SxO2H/2847WUua4iWwX0eXkpSYRAggggEBoAmaaEtGx3Yv5sdFRjYpDU3nf0oqJvZiodt0OzYN6EUAAAQQQ+CtA45WzgAACCCCAQIIFiicb50X1iF/RS/XHne/jqIXyTEFMjoqTnDNGDiR4+4iGAAIIbHgBE01JSiay1nz+dqR7QcS0b3Dmrpn6ttTPy+8e7Jvf8AgUiAACCCCAwH8EaLxyNBBAAAEEEEiwQHFoLutbzZuq5kxbw/WR7rl4bl7za/u2hV+uLZuJfILjEw0BBBBAYIML+EVV25z+Fs91jUvtKzXOeOcGvLorHx52xP8SYSGAAAIIIBCsAI3XYLeewhFAAAEE1otA76lP7Rpl7ntJvc6p3Ynnva6X7OREAAEEEAhHoKc0fcA5va4qlVq+Y1SGlY+D4Ww/lSKAAAII/EPgN+A+rhlKej2uAAAAAElFTkSuQmCC);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: contain;
+      transform: rotate(180deg);
+      content: " ";
+    }
+    .el-table {
+      padding: 38px 62px 87px 60px;
+      background: transparent;
+      border: 0;
+      /deep/ tr {
+        background: transparent;
+      }
+      /deep/ td,
+      /deep/ th.is-leaf {
+        border-bottom: 1px solid rgb(20, 45, 82);
+      }
+    }
+    /deep/ .el-table--enable-row-hover .el-table__body tr:hover > td {
+      background-color: rgba(10, 55, 103);
+    }
+    /deep/ .el-table .cell,
+    .el-table--border td:first-child .cell,
+    .el-table--border th:first-child .cell {
+      color: white;
+    }
+    /deep/ .el-table thead th {
+      background-color: transparent;
+    }
+    /deep/ .operation {
+      margin-right: 10px;
+      cursor: pointer;
+      color: rgb(116, 147, 254);
+    }
+    .el-table::before {
+      height: 0;
+    }
+  }
